@@ -1,0 +1,16 @@
+$color: #ccc;
+
+.resume-container{
+  width: 45%;
+  height: auto;
+  border:1px solid $color;
+  margin: 1% auto;
+  padding: 20px;
+  box-shadow: 5px  10px #888888;
+}
+
+@media (max-width: 768px) {
+  .resume-container{
+    width: 100%;
+  }
+}

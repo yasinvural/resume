@@ -1,0 +1,31 @@
+@import '../../styles/colors';
+
+.header-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    .info-container{
+        display:flex;
+        flex-direction:column;
+        .name{
+            font-size: 40px;
+            font-weight: bold;
+            color:$headerColor;
+        }
+        .title{
+            font-size: 24px;
+            font-weight: bold;
+            color:$fontColor;
+        }
+    }
+    .avatar-container{
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    } 
+}

@@ -1,0 +1,20 @@
+@import '../../styles/colors';
+
+.skills-container{
+    @extend %header-style-shared;
+}
+
+.skill-list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin:7% 0;
+    color: $fontColor;
+    .skill{
+        border:1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 3% 3%;
+        cursor: default;
+    }
+}
